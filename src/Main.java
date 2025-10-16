@@ -29,6 +29,7 @@ public class Main {
   }
 
   // The time complexity is:
+    //n, where n is the size of the 'bannedPasswords' list
   // YOUR ANSWER HERE
   public static boolean isBanned(String password) {
     String[] bannedPasswords = {"password", "hello", "qwerty"};
