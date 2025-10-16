@@ -152,6 +152,7 @@ public class Main {
 
   // assume that each String is bounded by a constant length
   // The time complexity is:
+    //O(1) where '.contains()' check is only O(1)
   // YOUR ANSWER HERE
   public static void checkIfContainedHashSet(HashSet<String> set, String target)
   {
