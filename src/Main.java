@@ -77,6 +77,7 @@ public class Main {
 
   // Assume that the largest number is no bigger than the length
   // of the array
+    //time complexity is: n^2, where there is a for-each in computeFactorial, and computeFactorial is wrapped in a for-each
   public static void computeAllFactorials(int[] nums) {
     for(int num : nums) {
         int result = computeFactorial(num);
