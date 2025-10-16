@@ -88,6 +88,7 @@ public class Main {
 
   // assume that each String is bounded by a constant length
   // The time complexity is:
+  // n where n is the size of the array
   // YOUR ANSWER HERE
   public static void checkIfContainedArrayList(ArrayList<String> arr, String target) {
     if (arr.contains(target)) {
