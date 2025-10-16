@@ -201,7 +201,7 @@ public class Main {
   // What is the time complexity of this method?
   // assume that each String is bounded by a constant length
   // (assume the set and list have the same number of elements)
-  // The time complexity is n simplified from 2n where n is the words in wordset compared against wordlist
+  // The time complexity is n^2 simplified where n^2 is the words in wordset compared against wordlist
   // YOUR ANSWER HERE
   public static boolean hasCommon(HashSet<String> wordSet, ArrayList<String> wordList) {
     for(String word : wordSet) {
