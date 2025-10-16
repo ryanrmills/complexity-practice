@@ -169,6 +169,7 @@ public class Main {
   // Otherwise, it returns "Person not found"
   // assume that each String is bounded by a constant length
   // What is the time complexity of this method?
+  // 2n simplified to n where 2n is the emails and iteration for queryName
   // YOUR ANSWER HERE
   public static String emailLookup(String[] names, String[] emails, String queryName) {
     for(int i = 0; i < names.length; i++) {
