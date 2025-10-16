@@ -55,6 +55,7 @@ public class Main {
   }
 
   // The time complexity is:
+    //n, where n is the size of 'nums' array passed into 'computeProduct', and for-each in computeProduct
   // YOUR ANSWER HERE
   public static void describeProduct(int[] nums) {
     System.out.println("About to compute the product of the array...");
