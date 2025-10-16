@@ -117,6 +117,7 @@ public class Main {
 
   // assume that each String is bounded by a constant length
   // The time complexity is:
+  // At first 2n simplified down to n, where it is the combination of the iterated wordsA and wordsB
   // YOUR ANSWER HERE
   public static boolean containsOverlap2(String[] wordsA, String[] wordsB) {
     Set<String> wordsSet = new HashSet<>();
