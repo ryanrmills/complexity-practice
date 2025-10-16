@@ -6,6 +6,7 @@ import java.util.Set;
 public class Main {
 
   // The time complexity is:
+    //The n^2, where n is size x, and power of 2 comes from the nested for-loop
   // YOUR ANSWER HERE
   public static void timesTable(int x) {
     for(int i = 1; i <= x; i++) {
