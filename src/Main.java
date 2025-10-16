@@ -169,7 +169,7 @@ public class Main {
   // Otherwise, it returns "Person not found"
   // assume that each String is bounded by a constant length
   // What is the time complexity of this method?
-  // 2n simplified to n where 2n is the emails and iteration for queryName
+  // n, where n is the emails and iteration for queryName
   // YOUR ANSWER HERE
   public static String emailLookup(String[] names, String[] emails, String queryName) {
     for(int i = 0; i < names.length; i++) {
@@ -187,8 +187,15 @@ public class Main {
   // assume that each String is bounded by a constant length
   // What is the time complexity of your solution?
   // YOUR ANSWER HERE
+    // Time complexity is O(1) where, a GET in a HashMap is only O(1)
   public static String emailLookupEfficient(HashMap<String, String> namesToEmails, String queryName) {
-    return null;
+    String requestedEmail = namesToEmails.get(queryName);
+
+    if (requestedEmail == null){
+      return null;
+    }
+
+    return requestedEmail;
   }
 
   // What is the time complexity of this method?
