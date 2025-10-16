@@ -144,6 +144,7 @@ public class Main {
     }
   }
   // The time complexity is:
+  // o(1) / 1, where 1 is the return of a + b / 2
   // YOUR ANSWER HERE
   public static double computeAverage(double a, double b) {
     return (a + b) / 2.0;
