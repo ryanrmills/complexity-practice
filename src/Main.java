@@ -216,7 +216,14 @@ public class Main {
   // assume that each String is bounded by a constant length
   // What is the time complexity of your new solution?
   // YOUR ANSWER HERE
+    //time complexity is O(n), where for each for wordList is O(n), and wordSet.contains() is O(1) complexity
   public static boolean hasCommonEfficient(HashSet<String> wordSet, ArrayList<String> wordList) {
+
+    for (String word : wordList){
+      if (wordSet.contains(word)){
+        return true;
+      }
+    }
     return false;
   }
 
