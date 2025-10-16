@@ -65,6 +65,7 @@ public class Main {
 
 
   // The time complexity is:
+  // n where n is the passed in n
   // YOUR ANSWER HERE
   public static int computeFactorial(int n) {
     int result = 1;
