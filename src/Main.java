@@ -249,4 +249,5 @@ public class Main {
   // to optimize for fast lookups or deletions.
   // What would be a good choice of data structure?
   // YOUR ANSWER HERE
+  // List, best for short simple data structures
 }
