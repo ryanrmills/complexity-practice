@@ -44,6 +44,7 @@ public class Main {
 
 
   // The time complexity is:
+  // n, where n is the size of the passed in nums array
   // YOUR ANSWER HERE
   public static int computeProduct(int[] nums) {
     int total = 1;
