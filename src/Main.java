@@ -102,6 +102,7 @@ public class Main {
   // assume n = wordsA.length = wordsB.length
   // assume that each String is bounded by a constant length
   // The time complexity is:
+    //time complexity is n^2, where n*n is wordsA * wordsB
   // YOUR ANSWER HERE
   public static boolean containsOverlap(String[] wordsA, String[] wordsB) {
     for(String wordA : wordsA) {
