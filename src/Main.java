@@ -136,6 +136,7 @@ public class Main {
 
   // The time complexity is:
   // YOUR ANSWER HERE
+    //n, where n is the length of chars[].
   public static void printCharacters(char[] chars) {
     for (int i = 0; i < chars.length; i++) {
       char character = chars[i];
